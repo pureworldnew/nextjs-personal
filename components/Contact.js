@@ -1,7 +1,20 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import userData from "@constants/data";
 
 export default function Contact() {
+  const [profile, setProfile] = useState([]);
+  const [isLoading, setLoading] = useState(false)
+  useEffect(() => {
+    setLoading(true);
+    fetch('/api/profile')
+      .then(res => res.json())
+      .then(data => {
+        console.log("profile", data.data)
+        setProfile(data.data);
+        setLoading(false);
+      })
+  }, [])
+  if (isLoading) return <p>Loading...</p>
   return (
     <section>
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800 antialiased">
@@ -51,7 +64,7 @@ export default function Contact() {
                   <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z" />
                 </svg>
                 <p className="text-gray-50 font-light text-sm">
-                  {userData.email}
+                  {profile[0].profileEmail}
                 </p>
               </div>
               <div className="flex flex-row items-center space-x-6 rounded-md border border-[#02044A] hover:border hover:border-blue-500 p-4">
