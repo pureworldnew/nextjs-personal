@@ -9,19 +9,19 @@ export default function Hero() {
     <div className="flex flex-row justify-center items-start overflow-hidden">
       {/* Text container */}
 
-      <div className="w-full md:w-1/2 mx-auto text-center md:text-left lg:p-20">
+      <div className="w-full mx-auto text-center md:text-left lg:p-20">
         <RoughNotationGroup show={true}>
-          <RainbowHighlight color={colors[0]}>
+          {/* <RainbowHighlight color={colors[0]}>
             <h3 className="text-2xl md:text-6xl font-bold text-gray-700 dark:text-gray-200 my-2">
               Full-Stack Web Developer.
             </h3>
-          </RainbowHighlight>
+          </RainbowHighlight> */}
           <RainbowHighlight color={colors[2]}>
-            <h1 className="text-4xl md:text-6xl font-bold text-gray-700 dark:text-gray-200 my-2">
-              Frontend Web Developer.
+            <h1 className="text-4xl md:text-6xl font-bold text-gray-700 dark:text-gray-200 my-2 text-center">
+              React/Next.js Frontend Developer.
             </h1>
           </RainbowHighlight>
-          <RainbowHighlight color={colors[1]}>
+          {/* <RainbowHighlight color={colors[1]}>
             <h2 className="text-4xl md:text-6xl font-bold text-gray-700 dark:text-gray-200 my-2">
               Backend Web Developer.
             </h2>
@@ -30,11 +30,11 @@ export default function Hero() {
             <h1 className="text-4xl md:text-6xl font-bold text-gray-700 dark:text-gray-200 my-2">
               Mobile App Developer.
             </h1>
-          </RainbowHighlight>
+          </RainbowHighlight> */}
         </RoughNotationGroup>
       </div>
       {/* Image container */}
-      <div className="hidden lg:block relative w-full md:w-1/2 -mr-40 mt-20">
+      {/* <div className="hidden lg:block relative w-full md:w-1/2 -mr-40 mt-20">
         <div className="w-3/4 ">
           <img src={userData.avatarUrl} alt="avatar" className=" shadow" />
           <div className="flex flex-row justify-between mt-4">
@@ -56,7 +56,7 @@ export default function Hero() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
