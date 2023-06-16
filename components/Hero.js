@@ -18,7 +18,7 @@ export default function Hero() {
           </RainbowHighlight> */}
           <RainbowHighlight color={colors[2]}>
             <h1 className="text-4xl md:text-6xl font-bold text-gray-700 dark:text-gray-200 my-2 text-center">
-              React/Next.js Frontend Developer.
+              Senior Software Developer.
             </h1>
           </RainbowHighlight>
           {/* <RainbowHighlight color={colors[1]}>
