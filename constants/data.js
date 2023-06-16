@@ -1,7 +1,7 @@
 const userData = {
   githubUsername: "pureworldnew",
   name: "Jonathan Samayoa",
-  designation: "React frontend developer",
+  designation: "Senior Software Developer",
   avatarUrl: "/avatar.jpg",
   email: "jonathandreamdev@gmail.com",
   phone: "+1 8065761063",
@@ -61,7 +61,7 @@ const userData = {
   },
   experience: [
     {
-      title: "React frontend Developer",
+      title: "Senior Software Developer.",
       company: "With-meetwithanyone.com",
       year: "2018-2023",
       companyLink: "https://meetwithanyone.com/",
