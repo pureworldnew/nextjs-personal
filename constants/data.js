@@ -70,20 +70,27 @@ const userData = {
     {
       title: "Web Developer",
       company: "Sky Republic Inc",
-      year: "2014-2018",
+      year: "2016-2018",
       companyLink: "https://www.skyrepublic.com/",
       desc: "Designed to get multi-enterprise applications up and running quickly, Sky Republic makes your supply chain more productive, resilient, and nimble.",
     },
     {
+      title: "Web Developer",
+      company: "AllSocial",
+      year: "2014-2016",
+      companyLink: "https://allsocial.app/",
+      desc: "Hand crafted social media content, fully customizable specific to your business with auto posting. No experience required",
+    },
+    {
       title: "Graduation",
-      company: "University of Texas at Dallas",
+      company: "Texas State University",
       year: "2014",
-      companyLink: "https://www.utdallas.edu/",
+      companyLink: "https://www.txst.edu/",
       desc: "Bachelor in Computer Science and Software Engineering.",
     }
   ],
   resumeUrl:
-    "https://drive.google.com/file/d/1x6Rue7sMjupvbULZsbUpts3_bfvg07Vo/view",
+    "https://drive.google.com/file/d/1x6Rue7sMjupvbULZsbUpts3_bfvg07Vo/view?usp=sharing",
   socialLinks: {
     linkedin: "https://www.linkedin.com/in/jonathan-samayoa/",
     github: "https://github.com/pureworldnew",
