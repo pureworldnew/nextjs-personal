@@ -77,14 +77,14 @@ const userData = {
     {
       title: "Web Developer",
       company: "AllSocial",
-      year: "2014-2016",
+      year: "2013-2016",
       companyLink: "https://allsocial.app/",
       desc: "Hand crafted social media content, fully customizable specific to your business with auto posting. No experience required",
     },
     {
       title: "Graduation",
       company: "Texas State University",
-      year: "2014",
+      year: "2013",
       companyLink: "https://www.txst.edu/",
       desc: "Bachelor in Computer Science and Software Engineering.",
     }
