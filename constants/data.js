@@ -56,15 +56,15 @@ const userData = {
       `After learning HTML and struggling with CSS, I came up with a brilliant idea of using bootstrap so that I don't have to style everything by myself and - for obvious reasons - if you knew bootstrap, you were cool.`,
       `But now, I'm a legend. I've been coding in React, Angular, Javascript, HTML5/CSS3, Jquery, Bootstrap, Tailwind etc to name a few. Although I barely know the workflow of (CI/CD pipeline, Docker, Kubernetes!), I consider myself a Ninja developer I'm laughing right now.`,
     ],
-    currentProject: "With-meetwithanyone.com",
-    currentProjectUrl: "https://meetwithanyone.com/",
+    currentProject: "https://www.microsoft.com/en-us/",
+    currentProjectUrl: "https://www.microsoft.com/en-us/",
   },
   experience: [
     {
-      title: "Senior Software Developer.",
-      company: "With-meetwithanyone.com",
+      title: "Lead full stack Developer.",
+      company: "Microsoft",
       year: "2018-2023",
-      companyLink: "https://meetwithanyone.com/",
+      companyLink: "https://www.microsoft.com/en-us/",
       desc: "Face-to-face, online experiences with professionals, experts, influencer, and more.",
     },
     {
