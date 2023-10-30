@@ -65,7 +65,7 @@ const userData = {
       company: "Microsoft",
       year: "2018-2023",
       companyLink: "https://www.microsoft.com/en-us/",
-      desc: "Face-to-face, online experiences with professionals, experts, influencer, and more.",
+      desc: "software development",
     },
     {
       title: "Web Developer",
