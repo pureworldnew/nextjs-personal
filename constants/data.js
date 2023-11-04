@@ -68,7 +68,7 @@ const userData = {
       desc: "software development",
     },
     {
-      title: "Web Developer",
+      title: "Software Developer",
       company: "Sky Republic Inc",
       year: "2013-2018",
       companyLink: "https://www.skyrepublic.com/",
@@ -83,7 +83,7 @@ const userData = {
     },
   ],
   resumeUrl:
-    "https://drive.google.com/file/d/1uOHgCC_ZTDkNQIi0DuSTe0NtT7aPhbCG/view?usp=sharing",
+    "https://drive.google.com/file/d/1mMRKuS-m0I4kNEpKTKTQyOYGl6EVnzBi/view?usp=sharing",
   socialLinks: {
     linkedin: "https://www.linkedin.com/in/jonathan-samayoa/",
     github: "https://github.com/pureworldnew",
