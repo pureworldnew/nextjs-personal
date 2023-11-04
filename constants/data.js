@@ -83,7 +83,7 @@ const userData = {
     },
   ],
   resumeUrl:
-    "https://drive.google.com/file/d/1mMRKuS-m0I4kNEpKTKTQyOYGl6EVnzBi/view?usp=sharing",
+    "https://drive.google.com/file/d/11bqs5K-joP8unhwqyHFxqGwZWmJQTLlP/view?usp=sharing",
   socialLinks: {
     linkedin: "https://www.linkedin.com/in/jonathan-samayoa/",
     github: "https://github.com/pureworldnew",
